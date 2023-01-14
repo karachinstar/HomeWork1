@@ -13,9 +13,11 @@ int Number2 = Convert.ToInt32(Console.ReadLine());
 int max = Number1;
 if (Number2 < max)
 {
-    Console.Write($"max =  {max}");
+    Console.WriteLine($"max =  {max}");
+    Console.Write($"min =  {Number2}");
 }
 else
 {
-    Console.Write($"max =  {Number2}");
+    Console.WriteLine($"max =  {Number2}");
+    Console.Write($"min =  {max}");
 }
